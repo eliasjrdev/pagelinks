@@ -1,7 +1,8 @@
 import BioLinks from './components/BioLinks';
 
+
 function App() {
-  return <BioLinks />;
+  return <BioLinks/>;
 }
 
 export default App;

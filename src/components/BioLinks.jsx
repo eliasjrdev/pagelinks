@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from 'react';
 import { FaBriefcase, FaTags, FaGraduationCap, FaTshirt, FaDesktop, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const links = [
@@ -12,7 +13,10 @@ const links = [
 
 export default function BioLinks() {
   return (
-    <div className="min-h-screen bg-black text-white flex flex-col items-center py-12 px-4">
+    <div className="relative min-h-screen bg-black text-white flex flex-col items-center py-12 px-4 overflow-hidden">
+       <div className="absolute inset-0 -z-10 w-full h-full">
+      </div>
+      
       <style>
         {`
           @keyframes pulse-border {
@@ -24,6 +28,7 @@ export default function BioLinks() {
       </style>
 
       <div className="flex flex-col items-center">
+        
         <div className="relative">
           <img
             src="/pfoto.jpg"
@@ -63,4 +68,3 @@ export default function BioLinks() {
     </div>
   );
 }
-
