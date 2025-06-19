@@ -1,20 +1,21 @@
 import { useEffect, useRef, useState } from 'react';
 import { FaBriefcase, FaTags, FaGraduationCap, FaTshirt, FaDesktop, FaLinkedin, FaGithub } from 'react-icons/fa';
-
+import Animacao from './Animacao';
 const links = [
   { icon: <FaBriefcase />, label: 'Meu portfólio', url: 'https://portfolioeliasjr-dev.vercel.app/' },
   { icon: <FaGithub />, label: 'Meu GitHub', url: 'https://github.com/eliasjrdev' },
   { icon: <FaLinkedin />, label: 'Meu Linkedin', url: 'https://www.linkedin.com/in/elias-c/' },
   { icon: <FaTags />, label: 'Entre no meu grupo de ofertas', url: 'https://chat.whatsapp.com/HpwUiTQJhxW1w0eiDHlp9Y' },
-  { icon: <FaGraduationCap />, label: 'Estude onde eu estudo', url: 'https://congenial.com.br/?utm_source=instagram&utm_medium=post&utm_campaign=elias&utm_id=eliasjr' },
+  { icon: <FaGraduationCap />, label: 'Estude onde eu estudo |', extra: 'Cupom: ELIASJR', url: 'https://congenial.com.br/?utm_source=instagram&utm_medium=post&utm_campaign=elias&utm_id=eliasjr' },
   { icon: <FaTshirt />, label: 'Melhores camisetas de t.i |', extra: 'Cupom: ELIASJR10', url: 'https://www.useti.shop/useti?utm_source=instagram&utm_medium=afiliado&utm_campaign=eliasjrdev' },
   { icon: <FaDesktop />, label: 'Links do meu setup', url: 'https://www.amazon.com.br/shop/eliasjr.dev/list/3N5B136B4LTCE?ref_=cm_sw_r_cp_ud_aipsflist_39J9S6H1CW1FVYSJCJWX' },
 ];
 
 export default function BioLinks() {
   return (
-    <div className="relative min-h-screen bg-black text-white flex flex-col items-center py-12 px-4 overflow-hidden">
-       <div className="absolute inset-0 -z-10 w-full h-full">
+    <div id="sparkle-bg" className="relative min-h-screen bg-black text-white flex flex-col items-center py-12 px-4">
+       <Animacao />
+       <div className="absolute inset-0 z-10 w-full h-full">
       </div>
       
       <style>
@@ -29,7 +30,7 @@ export default function BioLinks() {
 
       <div className="flex flex-col items-center">
         
-        <div className="relative">
+        <div className="relative z-10">
           <img
             src="/pfoto.jpg"
             alt="Foto de perfil"
@@ -37,11 +38,11 @@ export default function BioLinks() {
             style={{ animation: 'pulse-border 2s infinite' }}
           />
         </div>
-        <h1 className="text-2xl font-bold mt-2">Elias Jr</h1>
-        <p className="text-gray-400">Desenvolvedor Front-end</p>
+        <h1 className="text-2xl font-bold mt-2 z-10">Elias Jr</h1>
+        <p className="text-gray-400 z-10">Desenvolvedor Front-end 💻</p>
       </div>
 
-      <div className="mt-8 w-full max-w-md space-y-4">
+      <div className="mt-8 w-full max-w-md space-y-4 z-10">
         {links.map((link, index) => (
           <a
             key={index}
