@@ -66,6 +66,9 @@ export default function BioLinks() {
           </a>
         ))}
       </div>
+      <footer className='p-5'>
+        <p>&copy; elias costa 2025</p>
+      </footer>
     </div>
   );
 }
