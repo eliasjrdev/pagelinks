@@ -4,7 +4,7 @@ export default function Animacao() {
   useEffect(() => {
     function createSparkle() {
       const sparkle = document.createElement('span');
-      const sparkleEmojis = ['💻', '⌨️', '🖱️', '🎥'];
+      const sparkleEmojis = ['💻', '⌨️', '🖱️', '🎥', '🎧'];
       sparkle.textContent = sparkleEmojis[Math.floor(Math.random() * sparkleEmojis.length)];
 
       const size = Math.random() * 12 + 16;
