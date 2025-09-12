@@ -8,7 +8,7 @@ const links = [
   { icon: <FaTags />, label: 'Entre no meu grupo de ofertas', url: 'https://chat.whatsapp.com/HpwUiTQJhxW1w0eiDHlp9Y?mode=ems_copy_t' },
   { icon: <FaRocket />, label: 'Desconto na Rocketseat |', extra: 'Cupom: ELIASJR', url: 'https://www.rocketseat.com.br/oferta/influencer/v2/eliasjr' },
   { icon: <FaTshirt />, label: 'Melhores camisetas de t.i |', extra: 'Cupom: ELIASJR10', url: 'https://www.useti.shop/useti?utm_source=instagram&utm_medium=afiliado&utm_campaign=eliasjrdev' },
-  { icon: <FaLanguage />, label: 'Melhor escola de inglês para Techs', url: 'wa.me/+5583996596063' },
+  { icon: <FaLanguage />, label: 'Melhor escola de inglês para Techs', url: 'https://api.whatsapp.com/send/?phone=%2B5583996596063' },
   { icon: <FaDesktop />, label: 'Links do meu setup', url: 'https://www.amazon.com.br/shop/eliasjr.dev/list/3N5B136B4LTCE?ref_=cm_sw_r_cp_ud_aipsflist_39J9S6H1CW1FVYSJCJWX' },
  
 ];
