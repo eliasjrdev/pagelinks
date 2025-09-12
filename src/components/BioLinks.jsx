@@ -1,14 +1,16 @@
 import { useEffect, useRef, useState } from 'react';
-import { FaBriefcase, FaTags, FaGraduationCap, FaTshirt, FaDesktop, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaBriefcase, FaTags, FaGraduationCap, FaTshirt, FaDesktop, FaLinkedin, FaGithub, FaRocket, FaLanguage } from 'react-icons/fa';
 import Animacao from './Animacao';
 const links = [
   { icon: <FaBriefcase />, label: 'Meu portfólio', url: 'https://portfolioeliasjr-dev.vercel.app/' },
   { icon: <FaGithub />, label: 'Meu GitHub', url: 'https://github.com/eliasjrdev' },
   { icon: <FaLinkedin />, label: 'Meu Linkedin', url: 'https://www.linkedin.com/in/elias-c/' },
-  { icon: <FaTags />, label: 'Entre no meu grupo de ofertas', url: 'https://chat.whatsapp.com/HpwUiTQJhxW1w0eiDHlp9Y' },
-  { icon: <FaGraduationCap />, label: 'Estude onde eu estudo |', extra: 'Cupom: ELIASJR', url: 'https://congenial.com.br/?utm_source=instagram&utm_medium=post&utm_campaign=elias&utm_id=eliasjr' },
+  { icon: <FaTags />, label: 'Entre no meu grupo de ofertas', url: 'https://chat.whatsapp.com/HpwUiTQJhxW1w0eiDHlp9Y?mode=ems_copy_t' },
+  { icon: <FaRocket />, label: 'Desconto na Rocketseat |', extra: 'Cupom: ELIASJR', url: 'https://www.rocketseat.com.br/oferta/influencer/v2/eliasjr' },
   { icon: <FaTshirt />, label: 'Melhores camisetas de t.i |', extra: 'Cupom: ELIASJR10', url: 'https://www.useti.shop/useti?utm_source=instagram&utm_medium=afiliado&utm_campaign=eliasjrdev' },
+  { icon: <FaLanguage />, label: 'Melhor escola de inglês para Techs', url: 'wa.me/+5583996596063' },
   { icon: <FaDesktop />, label: 'Links do meu setup', url: 'https://www.amazon.com.br/shop/eliasjr.dev/list/3N5B136B4LTCE?ref_=cm_sw_r_cp_ud_aipsflist_39J9S6H1CW1FVYSJCJWX' },
+ 
 ];
 
 export default function BioLinks() {
