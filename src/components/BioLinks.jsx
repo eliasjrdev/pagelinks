@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { FaBriefcase, FaTags, FaGraduationCap, FaTshirt, FaDesktop, FaLinkedin, FaGithub, FaRocket, FaLanguage } from 'react-icons/fa';
+import { FaBriefcase, FaTags, FaGraduationCap, FaTshirt, FaDesktop, FaLinkedin, FaGithub, FaRocket, FaLanguage, FaInternetExplorer } from 'react-icons/fa';
 import Animacao from './Animacao';
 const links = [
   { icon: <FaBriefcase />, label: 'Meu portfólio', url: 'https://portfolioeliasjr-dev.vercel.app/' },
@@ -9,6 +9,7 @@ const links = [
   { icon: <FaRocket />, label: 'Desconto na Rocketseat |', extra: 'Cupom: ELIASJR', url: 'https://www.rocketseat.com.br/oferta/influencer/v2/eliasjr' },
   { icon: <FaTshirt />, label: 'Melhores camisetas de t.i |', extra: 'Cupom: ELIASJR10', url: 'https://www.useti.shop/useti?utm_source=instagram&utm_medium=afiliado&utm_campaign=eliasjrdev' },
   { icon: <FaLanguage />, label: 'Melhor escola de inglês para Techs', url: 'https://api.whatsapp.com/send/?phone=%2B5583996596063' },
+  { icon: <FaInternetExplorer />, label: 'Aprenda web3 na NearX', url: 'https://nearx.com.br/custom-plans?gad_source=1&gad_campaignid=21081157148&gclid=CjwKCAjwtfvEBhAmEiwA-DsKjn3-U8B90ZQ6KWb_JfMnsdx9leoOLmNIie7bZA8pCG5EDVQD3k3qbxoCSSgQAvD_BwE&fbclid=PAZXh0bgNhZW0CMTEAAadHM8bvuZaj2F7_weGZzAod5l6r07tbXe1peoNgm4JWeZdeCS9s5GfcQSPjGw_aem_S4MiGDCbuyYUENsH6SmKaA' },
   { icon: <FaDesktop />, label: 'Links do meu setup', url: 'https://www.amazon.com.br/shop/eliasjr.dev/list/3N5B136B4LTCE?ref_=cm_sw_r_cp_ud_aipsflist_39J9S6H1CW1FVYSJCJWX' },
  
 ];
