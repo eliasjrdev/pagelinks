@@ -4,6 +4,7 @@ import Animacao from './Animacao';
 const links = [
   { icon: <FaRocket />, label: 'Desconto na Rocketseat |', extra: 'Cupom: ELIASJR', url: 'https://www.rocketseat.com.br/oferta/influencer/v2/eliasjr' },
   { icon: <FaTshirt />, label: 'Melhores camisetas de t.i |', extra: 'Cupom: ELIASJR10', url: 'https://www.useti.shop/useti?utm_source=instagram&utm_medium=afiliado&utm_campaign=eliasjrdev' },
+  { icon: <FaTshirt />, label: 'Seu pc na Setup Ninja |', extra: 'Cupom: ELIASJR', url: 'https://www.setupninja.com.br/?utm_source=linktree' },
   { icon: <FaLanguage />, label: 'Melhor escola de inglês para Techs', url: 'https://api.whatsapp.com/send?phone=5583993611976' },
   { icon: <FaTags />, label: 'Entre no meu grupo de ofertas', url: 'https://chat.whatsapp.com/HpwUiTQJhxW1w0eiDHlp9Y?mode=ems_copy_t' },
   { icon: <FaGithub />, label: 'Meu GitHub', url: 'https://github.com/eliasjrdev' },
