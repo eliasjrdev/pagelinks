@@ -3,8 +3,8 @@ import { FaBriefcase, FaTags, FaGraduationCap, FaTshirt, FaDesktop, FaLinkedin, 
 import Animacao from './Animacao';
 const links = [
   { icon: <FaRocket />, label: 'Desconto na Rocketseat |', extra: 'Cupom: ELIASJR', url: 'https://www.rocketseat.com.br/oferta/influencer/v2/eliasjr' },
+  { icon: <FaRobot />, label: 'Acesse a emergent aqui', url: 'https://app.emergent.sh/?via=costa' },
   { icon: <FaTshirt />, label: 'Melhores camisetas de t.i |', extra: 'Cupom: ELIASJR10', url: 'https://www.useti.shop/useti?utm_source=instagram&utm_medium=afiliado&utm_campaign=eliasjrdev' },
-  { icon: <FaRobot />, label: 'Acesse a emergent aqui', url: 'https://l.instagram.com/?u=https%3A%2F%2Fapp.emergent.sh%2F%3Fvia%3Dcosta%26utm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnZ75rr9L7O_kAj1kJ0YvC-VKpd1FzxGZft5q3BD_2DVoED9FNIPtZSshmGPY_aem_I1nAqr_49GW3z2KxdeXeOQ&e=AT2w5mss-n1xm4Iq1pINflgIgPjEJDLAO7977rr0Avw_o2ngdC0AqxSXa2qVtvuDDw55k7iHlyk1p0_x2THLEqyE0r9HJPvdEEni3ZN5Ro2kIRBm87mMEWW1Dw' },
   { icon: <FaLanguage />, label: 'Melhor escola de inglês para Techs', url: 'https://api.whatsapp.com/send?phone=5583993611976' },
   { icon: <FaTags />, label: 'Entre no meu grupo de ofertas', url: 'https://chat.whatsapp.com/HpwUiTQJhxW1w0eiDHlp9Y?mode=ems_copy_t' },
   { icon: <FaGithub />, label: 'Meu GitHub', url: 'https://github.com/eliasjrdev' },
