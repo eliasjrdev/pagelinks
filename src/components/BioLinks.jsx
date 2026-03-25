@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { FaBriefcase, FaTags, FaGraduationCap, FaTshirt, FaDesktop, FaLinkedin, FaGithub, FaRocket, FaLanguage, FaInternetExplorer, FaUserNinja, FaRobot } from 'react-icons/fa';
 import Animacao from './Animacao';
 const links = [
+  { icon: <FaRobot />, label: 'Acesse a Genspark AI aqui', url: 'https://bit.ly/40P6O8H' },
   { icon: <FaRobot />, label: 'Acesse a Emergent aqui', url: 'https://app.emergent.sh/?utm_shift=redirect&via=costa' },
   { icon: <FaRocket />, label: 'Desconto na Rocketseat |', extra: 'Cupom: ELIASJR', url: 'https://www.rocketseat.com.br/oferta/influencer/v2/eliasjr' },
   { icon: <FaTshirt />, label: 'Melhores camisetas de t.i |', extra: 'Cupom: ELIASJR10', url: 'https://www.useti.shop/useti?utm_source=instagram&utm_medium=afiliado&utm_campaign=eliasjrdev' },
