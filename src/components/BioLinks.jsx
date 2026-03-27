@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
-import { FaBriefcase, FaTags, FaGraduationCap, FaTshirt, FaDesktop, FaLinkedin, FaGithub, FaRocket, FaLanguage, FaInternetExplorer, FaUserNinja, FaRobot } from 'react-icons/fa';
+import { FaBriefcase, FaTags, FaGraduationCap, FaTshirt, FaDesktop, FaLinkedin, FaGithub, FaRocket, FaLanguage, FaInternetExplorer, FaUserNinja, FaRobot, FaChair } from 'react-icons/fa';
 import Animacao from './Animacao';
 const links = [
+  { icon: <FaChair />, label: 'CADEIRA ELEMENTS |', extra: 'Cupom: ELIASJRDEV5', url: 'https://loja.elements.com.br/products/cadeira-ergonomica-elements-galatea?utm_source=google&utm_content=787854282911&utm_campaign=20275573114&utm_term=galatea+elements&utm_medium=ppc&hsa_acc=4338881088&hsa_cam=20275573114&hsa_grp=189450019826&hsa_ad=787854282911&hsa_src=g&hsa_tgt=aud-1246012324559%3Akwd-2461983627762&hsa_kw=galatea+elements&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=20275573114&gbraid=0AAAAACqET4p9yCpQFrOUF07f0itbaluOt&gclid=CjwKCAiA-__MBhAKEiwASBmsBGcZhPu64z8tmf2ycBYTi-qselCfIUGVJc5GYvuuuci5l1-z-BC1EhoC-eAQAvD_BwE&variant=52318705975666' },
   { icon: <FaRobot />, label: 'Acesse a Genspark AI aqui', url: 'https://bit.ly/40P6O8H' },
   { icon: <FaRobot />, label: 'Acesse a Emergent aqui', url: 'https://app.emergent.sh/?utm_shift=redirect&via=costa' },
   { icon: <FaRocket />, label: 'Desconto na Rocketseat |', extra: 'Cupom: ELIASJR', url: 'https://www.rocketseat.com.br/oferta/influencer/v2/eliasjr' },
