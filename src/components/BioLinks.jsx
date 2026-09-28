@@ -1,11 +1,12 @@
 import { useEffect, useRef, useState } from 'react';
 import { FaBriefcase, FaTags, FaGraduationCap, FaTshirt, FaDesktop, FaLinkedin, FaGithub, FaRocket, FaLanguage, FaInternetExplorer, FaUserNinja, FaRobot, FaChair } from 'react-icons/fa';
 import Animacao from './Animacao';
+import { FaComputer } from 'react-icons/fa6';
 const links = [
-  { icon: <FaRocket />, label: 'Desconto na Rocketseat |', extra: 'Cupom: ELIASJR', url: 'https://www.rocketseat.com.br/oferta/influencer/v2/eliasjr' },
-  { icon: <FaRobot />, label: 'Link da Genspark AI', url: 'https://www.genspark.ai/?utm_source=ig&utm_campaign=eliasjr.dev' },
+  { icon: <FaComputer />, label: 'LiteStand Vertical Octoo', url: 'https://meli.la/2sHVwZD' },
+  { icon: <FaComputer />, label: 'LiteStand Headset Octoo', url: 'https://meli.la/22KugVh' },
+  { icon: <FaComputer />, label: 'EasyPlug Mini Octoo', url: 'https://meli.la/2VDWKyH' },
   { icon: <FaTags />, label: 'Entre no meu grupo de ofertas', url: 'https://chat.whatsapp.com/Lmt5wKuzhukAt1VREfZfx8?s=sh&p=i&ilr=0&amv=1' },
-  { icon: <FaGithub />, label: 'Meu GitHub', url: 'https://github.com/eliasjrdev' },
   { icon: <FaLinkedin />, label: 'Meu Linkedin', url: 'https://www.linkedin.com/in/elias-c/' }
 ];
 
